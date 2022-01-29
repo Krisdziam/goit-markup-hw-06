@@ -284,7 +284,30 @@
             </li>
           </ul>
         </div>
+        <div class="subscribe" role="group" aria-labelby="subscribe-news-form">
+          <p class="footer-invite" id="subscribe-news-form">
+            Подпишитесь на рассылку
+          </p>
+          <form class="footer-signup" name="signup-form" autocomplete="on">
+            <label class="footer-label">
+              <input
+                class="footer-label-line"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <button class="page-button signup-button" type="submit">
+              Подписаться
+              <svg class="signup-icon" width="24" height="24">
+                <use href="./image/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+
   </body>
 </html>
